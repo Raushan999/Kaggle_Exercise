@@ -1,12 +1,9 @@
-# Loading the dataset
-
-# Preliminary analysis:- high level overview
-
-# Data Quality & Cleaning
-
-# Univariate Analysis of features
-
-# Bivariate & Multivariate Analysis
+# EDA
+- Loading the dataset
+- Preliminary analysis:- high level overview
+- Data Quality & Cleaning
+- Univariate Analysis of features
+- Bivariate & Multivariate Analysis
 
 # Feature Engineering: Encoding, Transformation, Missing, Outlier
 

@@ -1,12 +1,9 @@
-# Loading the dataset
-
-# Preliminary analysis:- high level overview
-
-# Data Quality & Cleaning
-
-# Univariate Analysis of features
-
-# Bivariate & Multivariate Analysis
+# EDA
+- Loading the dataset
+- Preliminary analysis:- high level overview
+- Data Quality & Cleaning
+- Univariate Analysis of features
+- Bivariate & Multivariate Analysis
 
 # Feature Engineering: Encoding, Transformation, Missing, Outlier
 
@@ -121,42 +118,3 @@ The goal: Create useful, meaningful, and machine-readable features.
 6. Missing Indicator Features
 * Add a binary flag: "was_missing" → sometimes missingness is informative.
 
-🎯 4. Feature Selection
-
-The goal: Keep only the most relevant features and reduce noise.
-
-Checklist:
-
-Filter Methods (statistical tests)
-
-Pearson correlation for numeric.
-
-Chi-square test for categorical vs target.
-
-ANOVA F-test for continuous vs categorical target.
-
-Remove highly correlated features (|corr| > 0.9).
-
-Wrapper Methods
-
-Recursive Feature Elimination (RFE).
-
-Forward/Backward selection.
-
-Embedded Methods
-
-Lasso Regression (L1 penalty → drives some coefficients to 0).
-
-Tree-based models (Random Forest, XGBoost feature importance).
-
-Dimensionality Reduction
-
-PCA/UMAP/T-SNE if features are highly correlated and high-dimensional.
-
-Keep enough components to explain 90–95% variance.
-
-Business Validation
-
-Don’t just trust stats — check if features make business sense.
-
-Drop features that cause leakage (e.g., “days_since_subscription_start”).
